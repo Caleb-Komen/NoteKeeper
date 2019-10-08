@@ -104,7 +104,7 @@ public class NoteActivity extends AppCompatActivity implements android.app.Loade
             getLoaderManager().initLoader(LOADER_NOTES,null, this);
         }
 
-        moduleStatusView = findViewById(R.id.module_status);
+        moduleStatusView = findViewById(R.id.moduleStatusView);
         loadModuleStatusValues();
 
         Log.d(TAG,"onCreate");
